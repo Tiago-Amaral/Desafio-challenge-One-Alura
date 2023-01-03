@@ -30,8 +30,8 @@ para orientar e gerenciar o desenvolvimento do projeto e um modelo proposto de e
 
 ### Tela Mobile
 
-<div><img src="https://user-images.githubusercontent.com/97295520/210460524-07a4eab5-43bc-438d-be39-8a60baf3f893.png"> </div>
+<div aligin="center"><img src="https://user-images.githubusercontent.com/97295520/210460524-07a4eab5-43bc-438d-be39-8a60baf3f893.png"> </div>
 
 ### Tela Mobile texto codificado
 
-<div><img src="https://user-images.githubusercontent.com/97295520/210460626-59ae253c-a335-419b-a201-5d093af8aa02.png"> </div>
+<div aligin="center"><img src="https://user-images.githubusercontent.com/97295520/210460626-59ae253c-a335-419b-a201-5d093af8aa02.png"> </div>
