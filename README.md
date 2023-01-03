@@ -21,5 +21,5 @@ para orientar e gerenciar o desenvolvimento do projeto e um modelo proposto de e
 
 ### Tela Desktop
 
-<div><img src=""> </div>
+<div><img src="https://user-images.githubusercontent.com/97295520/210460033-0d78b088-890e-41d3-933a-8312d33af720.png"> </div>
 
