@@ -24,10 +24,23 @@ function descriptografar(){
     '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
 }
 
+function checkTextArea() {
+  if (document.getElementById("input-texto").value == "") {
+    alert("Por favor, preencha a área do texto!");
+    return false;
+  } else {
+    document.getElementById("btn-criptografar").onclick = criptografar() 
+      // Executar ação do botão aqui
+    
+  }
+}
+
+ 
+
 function copiar() {
     var textoCop = document.querySelector('#input-texto2');
   
     textoCop.select();
     document.execCommand('copy');
-    alert("texto copiado");
+    alert("Texto copiado!");
 }

@@ -18,7 +18,7 @@
         </header>
         <div class="container-input">
             <div class="input">
-                <textarea id="input-texto" placeholder="Digite seu texto..."></textarea>
+                <textarea   id="input-texto" type="text" placeholder="Digite seu texto..." value="Enviar"></textarea>
                 <p> <img src="./img/exclamacao.png" alt=""> Apenas letras minúsculas e sem acento.</p>
             </div>
            
@@ -31,8 +31,8 @@
 
         <div class="button">
             <div class="container-bnt">
-                <button class="btn-criptografar" onclick="criptografar()">Criptografar</button>
-                <button class="btn-descriptografar" onclick="descriptografar()">Descriptografar</button>
+                <button class="btn-criptografar"onclick=" checkTextArea()"  >Criptografar</button>
+                <button class="btn-descriptografar" onclick="descriptografar()" >Descriptografar</button>
             </div>
         </div>
     </main>
