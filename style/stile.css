@@ -97,6 +97,7 @@ body {
     height: 530px;
     background: #FFFFFF;
     padding: 5px;
+    border: none;
 }
 
 #output h2 {
@@ -551,7 +552,7 @@ body {
         font-size: 16px;
         border: 1px solid #0A3871;
         position: absolute;
-        margin-bottom: 44%;
+        margin-bottom: 55%;
         cursor: pointer;
 
     }
@@ -560,7 +561,7 @@ body {
         font-size: 16px;
         width: 310px;
         margin-left: 30px;
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .rodape h3 {
