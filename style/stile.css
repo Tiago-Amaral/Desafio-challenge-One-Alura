@@ -53,13 +53,13 @@ body {
 
 
 
-#input-text1::placeholder {
+#input-texto::placeholder {
     color: #0A3871;
 }
 
 
 
-#input-text1 {
+#input-texto {
     width: 345px;
     height: 330px;
     font-size: 20px;
@@ -73,7 +73,7 @@ body {
     resize: none;
 }
 
-#input-text2 {
+#input-texto2 {
     width: 345px;
     height: 330px;
     font-size: 20px;
@@ -83,7 +83,6 @@ body {
     border: none;
     outline: 0;
     padding: 10px;
-    text-transform: uppercase;
     resize: none;
     text-align: center;
 }
