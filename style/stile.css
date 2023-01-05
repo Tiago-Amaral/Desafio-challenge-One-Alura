@@ -190,6 +190,78 @@ body {
     margin-top: 25px;
 }
 
+@media screen and (max-width:1187px) {
+
+    .container-bnt .btn-criptografar {
+        background-color: #0A3871;
+        color: white;
+        width: 328px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 16px;
+        border: 1px solid #0A3871;
+        margin-left: 20px;
+        cursor: pointer;
+    
+    }
+    
+    
+    .container-bnt .btn-descriptografar {
+        color: white;
+        width: 328px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 16px;
+        color: #0A3871;
+        background-color: #D8DFE8;
+        border: 1px solid #0A3871;
+        cursor: pointer;
+        margin-left: 15px;
+    
+    }
+    
+    .btn-copiar {
+        background-color: #D8DFE8;
+        color: #0A3871;
+        width: 270px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 16px;
+        border: 1px solid #0A3871;
+        margin-left: 45px;
+        position: absolute;
+        bottom: 85px;
+        cursor: pointer;
+    
+    }
+    
+    
+    .rodape {
+        display: flex;
+        width: auto;
+        height: 100px;
+        flex-direction: column;
+        align-items: center;
+        background: black;
+        margin-top: 50px;
+        color: #D8DFE8;
+        justify-content: space-around;
+    
+    }
+    
+    .rodape span {
+        font-size: 13px;
+    }
+    
+    .icons img {
+        width: 25px;
+        height: 25px;
+        margin-top: 25px;
+    }
+
+}
+
+
 @media screen and (max-width:850px) {
 
     .cabecalho {
@@ -306,7 +378,9 @@ body {
 
 }
 
-@media screen and (max-width:400px) {
+
+
+@media screen and (max-width:500px) {
 
 
     body {
@@ -341,8 +415,6 @@ body {
     }
 
 
-
-
     .container-bnt .btn-criptografar {
         width: 150px;
         height: 50px;
@@ -367,7 +439,7 @@ body {
         font-size: 16px;
         border: 1px solid #0A3871;
         position: absolute;
-        margin-bottom: 44%;
+        margin-bottom: 10%;
         cursor: pointer;
 
     }
@@ -490,7 +562,9 @@ body {
     }
 }
 
-@media screen and (max-width:393px) {
+
+
+@media screen and (max-width:400px) {
 
 
     body {
@@ -551,7 +625,102 @@ body {
         font-size: 16px;
         border: 1px solid #0A3871;
         position: absolute;
-        margin-bottom: 55%;
+        margin-bottom: 44%;
+        cursor: pointer;
+
+    }
+
+    .input p {
+        font-size: 16px;
+        width: 310px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .rodape h3 {
+        font-size: 14px;
+    }
+
+    .rodape {
+        max-width: 500px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+        margin-top: 50px;
+
+    }
+
+
+
+    .icons img {
+        margin-top: 7px;
+    }
+}
+
+
+
+@media screen and (max-width:394px) {
+
+
+    body {
+        max-width: 851px;
+        max-height: 393px;
+        width: auto;
+        height: auto;
+    }
+
+    #output {
+        max-width: 420px;
+        max-height: 400px;
+        padding: 0;
+        border: none;
+
+
+    }
+
+    #input-text2 {
+        width: 200px;
+        height: 330px;
+        font-size: 20px;
+    }
+
+    #output img {
+        max-width: 200px;
+        max-height: 150px;
+        width: auto;
+        height: auto;
+        margin-top: 4%;
+        margin-left: 5%;
+    }
+
+
+
+
+    .container-bnt .btn-criptografar {
+        width: 150px;
+        height: 50px;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .container-bnt .btn-descriptografar {
+        width: 150px;
+        height: 50px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .btn-copiar {
+        background-color: #D8DFE8;
+        color: #0A3871;
+        width: 150px;
+        height: 50px;
+        margin-left: 3%;
+        border-radius: 24px;
+        font-size: 16px;
+        border: 1px solid #0A3871;
+        position: absolute;
+        margin-bottom: 15%;
         cursor: pointer;
 
     }
